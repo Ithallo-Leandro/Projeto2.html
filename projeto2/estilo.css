@@ -1,0 +1,433 @@
+@font-face {
+    font-family: 'Fonte' ;
+    src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#cabeca{
+    border-bottom: 1px solid black;
+}
+
+.menu{
+    display: block;
+}
+
+.menu ul{
+    list-style:none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -0px;
+    right: 540px;
+}
+
+.menu li{
+    font-size: 16px;
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    transition: background-color 1s;
+}
+
+.menu li:hover {
+    background-color: #606060;
+}
+
+.menu a{
+    text-decoration: none;
+    font-weight: 650;
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: underline solid white;
+    color: white;
+}
+
+#banner{
+   width: 772px;
+   height: 260px;  
+   margin-top: 20px;
+   margin-left: 14px;
+}
+
+#logo{
+    width: 72px;
+    height: 50px;
+    mix-blend-mode: darken;
+    margin-top: 9px;
+}
+
+
+#foto1{
+    width: 330px;
+    height: 145px;
+    padding: 20px;
+}
+
+figcaption h3{
+    font-weight: 600pt;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+figcaption h5{
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 12pt;
+  font-weight: normal;
+  color: #606060;
+}
+figure{
+    border: 2px solid rgb(14, 12, 12);
+    margin-right: 5px;
+    border-radius: 5px;
+    width: 370px;
+    margin-left: 18px;
+    line-height: 18px;
+    background-color: #DDDDDD;
+}
+
+#fluvas{
+    width: 335px;
+    height: 145px;
+    padding: 20px;
+}
+
+#foto2 h3{
+    font-weight: 600pt;
+    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+
+#foto2 h5{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    color: #606060;
+}
+
+#foto2{
+    border: 2px solid rgb(14, 12, 12);
+    border-radius: 5px;
+    width: 200px;
+    line-height: 18px;
+    background-color: #DDDDDD;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#interface{
+    width: 800px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    padding: 10px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#jaqueta{
+    width: 165px;
+    height: 192px;
+    mix-blend-mode: darken;
+}
+
+.galeria-bg{
+    border: 2px solid rgb(14, 12, 12);
+    margin-right: 18px;
+    border-radius: 5px;
+    width: 200px;
+    margin-left: 30px;
+    line-height: 1.14rem;
+    background-color: #DDDDDD;
+}
+
+.galeria-bg h5{
+    color: rgb(143, 93, 0);
+}
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#jaqueta{
+    width: 195px;
+    height: 192px;
+    mix-blend-mode: darken;
+}
+
+#camisa{
+    width: 165px;
+    height: 160px;
+    mix-blend-mode: darken;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+#polo{
+    width: 200px;
+    height: 165px;
+    mix-blend-mode: darken;
+}
+
+#cam-verde{
+    mix-blend-mode: darken;
+    width: 185px;
+    height: 160px;
+}
+
+#cam-listrada{
+    width: 170px;
+    height: 170px;
+    mix-blend-mode: darken;
+    padding-left: 14px;
+    padding-top: 15px;
+}
+
+#blusao{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+    
+}
+
+#camisa1{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+}
+
+#camisa2{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+}
+
+#camisa3{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+}
+
+#camisa4{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+    padding-top: -10px;
+}
+
+#camisa5{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+#camisa6{
+    width: 180px;
+    height: 180px;
+    mix-blend-mode: darken;
+    padding-left: 7px;
+    padding-top: 10px;
+}
+
+#blog1{
+    width: 700px;
+    height: 345px;
+    margin-left: 10px;
+}
+
+#blog1-txt h3{
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    text-decoration: underline 1px solid rgba(0, 0, 0, 0.3);
+}
+#blog1-txt h5{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:-8px;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline 1px solid #606060;
+}
+
+#blog1-txt h6{
+    font-size: 11pt;
+    margin-left: 6px;
+    font-weight: 100;
+}
+
+#blog1-txt{
+    width: 720px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+
+#blog2{
+    width: 700px;
+    height: 345px;
+    margin-left: 10px;
+}
+
+#blog2-txt h3{
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    text-decoration: underline 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#blog2-txt h5{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:-8px;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline 1px solid #606060;
+}
+
+#blog2-txt h6{
+    font-size: 11pt;
+    margin-left: 6px;
+    font-weight: 100;
+}
+
+#blog2-txt{
+    width: 720px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+
+#blog3{
+    width: 700px;
+    height: 345px;
+    margin-left: 10px;
+}
+
+#blog3-txt h3{
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    text-decoration: underline 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#blog3-txt h5{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:-8px;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline 1px solid #606060;
+}
+
+#blog3-txt h6{
+    font-size: 11pt;
+    margin-left: 6px;
+    font-weight: 100;
+}
+
+#blog3-txt{
+    width: 720px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+
+#blog4{
+    width: 700px;
+    height: 345px;
+    margin-left: 10px;
+}
+
+#blog4-txt h3{
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    text-decoration: underline 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#blog4-txt h5{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:-8px;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline 1px solid #606060;
+    font-weight: 300;
+}
+
+#blog4-txt h6{
+    font-size: 11pt;
+    margin-left: 6px;
+    font-weight: 100;
+}
+
+#blog4-txt{
+    width: 720px;
+    height: 600px;
+    margin-left: 40px;
+}
+
+
+#blog5{
+    width: 700px;
+    height: 345px;
+    margin-left: 10px;
+}
+
+#blog5-txt h3{
+    font-size: 15pt;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    text-decoration: underline 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#blog5-txt h5{
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:-8px;
+    color: rgba(0, 0, 0, 0.9);
+    text-decoration: underline 1px solid #606060;
+    font-weight: 300;
+}
+
+#blog5-txt h6{
+    font-size: 11pt;
+    margin-left: 6px;
+    font-weight: 100;
+}
+
+#blog5-txt{
+    width: 720px;
+    height: 600px;
+    margin-left: 40px;
+}
